@@ -4,6 +4,11 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  .ding{
+      color: rgb(97, 126, 255);
+      margin-bottom: 20px;
+  }
   
   .navbar {
     position: fixed;

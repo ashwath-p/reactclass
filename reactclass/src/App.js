@@ -1,32 +1,7 @@
-// import logo from './logo.svg';
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
 
 import React, { useEffect, useState, Fragment } from "react";
 import Tabletop from "tabletop";
-import {Button, Navbar, Container, Nav, Jumbotron, Alert, Row, Form, Col} from "react-bootstrap";
+import {Button, Navbar, Container, Jumbotron, Alert, Row, Col} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import './App.css';
 import "./style.css";
@@ -185,5 +160,3 @@ export default function App() {
     </>
   );
 }
-
-// https://docs.google.com/spreadsheets/d/e/2PACX-1vR5cessTKMMFmfUAXpnUObXA7aq-KniI3ic47g755BXj1D_OCyT_0jZvXjIVEPn0zocODsgW9bL-y4w/pubhtml
