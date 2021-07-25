@@ -25,7 +25,7 @@ export default function App() {
         
   <Navbar bg="dark">
   <Container>
-    <Navbar.Brand href="https://www.vitrendz.tech">
+    <Navbar.Brand href="https://www.vitrendz.tech" target="_blank">
       <img
         src="https://drive.google.com/thumbnail?id=10bwXdT0UY1ElXcGkHDHiN3jpRSPEnQaQ" 
         className="d-inline-block align-top navLogo"
@@ -123,12 +123,13 @@ export default function App() {
                           
               })}
                                 <section>
+                                      <a href="https://www.instagram.com/vitrendz" target="_blank" rel="noreferrer">
                                   <div className="d-grid">
-                                    <Button variant="primary" class="gbtn btn btn-block" size="lg" id="gbtn"
-                                        onclick="window.open(' https://www.instagram.com/vitrendz ')">Follow Us for More
+                                    <Button variant="primary" class="gbtn btn btn-block" size="lg" id="gbtn">Follow Us for More
                                         Updates</Button>
-                                    <p class="vitrends">Created with <FaHeart /> by VITrendz</p>
                                     </div>
+                                        </a>
+                                    <p class="vitrends">Created with <FaHeart /> by VITrendz</p>
                                 </section>
                     </div>
                 </div>
