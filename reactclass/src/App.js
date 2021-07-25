@@ -54,13 +54,13 @@ export default function App() {
               <h1 class="ding">VITrendz Whatsapp Community</h1>
                         <Container Fluid>
                             <Row class="head">
-                                <div class="form-control d-none d-xl-block col-xl title splpd" name="gnameto">
+                                <div class="form-control d-xl-block col-xl title splpd" name="gnameto">
                                     Group Name
                                 </div>
-                                <div class="form-control d-none d-xl-block col-xl title splpd" name="glinkto">
+                                <div class="form-control d-xl-block col-xl title splpd" name="glinkto">
                                     Group Link
                                 </div>
-                                <div class="form-control d-none d-xl-block col-xl title splpd" name="spamto">
+                                <div class="form-control d-xl-block col-xl title splpd" name="spamto">
                                     Spam
                                 </div>
                             </Row>
@@ -71,13 +71,13 @@ export default function App() {
                                           <Container Fluid>
                                               <Row>
                                                   
-                                              <div class="form-control d-none d-xl-block col-xl splpd" name="gname">
+                                              <div class="form-control d-xl-block col-xl splpd" name="gname">
                                                   {item.gname}
                                               </div>
-                                              <div class="form-control d-none d-xl-block col-xl splpd" name="glink">
+                                              <div class="form-control d-xl-block col-xl splpd" name="glink">
                                               <a href={item.glink} target='_new'>Link</a>
                                               </div>
-                                              <div class="form-control d-none d-xl-block col-xl splpd" name="spam">
+                                              <div class="form-control d-xl-block col-xl splpd" name="spam">
                                                   {item.spam}
                                               </div>
                                               </Row>
@@ -88,13 +88,13 @@ export default function App() {
                       <h1 class="ding">VITrendz Telegram Community</h1>
                       <Container Fluid>
                             <Row class="head">
-                                <div class="form-control d-none d-xl-block col-xl title splpd" name="gnameto">
+                                <div class="form-control d-xl-block col-xl title splpd" name="gnameto">
                                     Group Name
                                 </div>
-                                <div class="form-control d-none d-xl-block col-xl title splpd" name="glinkto">
+                                <div class="form-control d-xl-block col-xl title splpd" name="glinkto">
                                     Group Link
                                 </div>
-                                <div class="form-control d-none d-xl-block col-xl title splpd" name="spamto">
+                                <div class="form-control d-xl-block col-xl title splpd" name="spamto">
                                     Spam
                                 </div>
                             </Row>
@@ -107,13 +107,13 @@ export default function App() {
                               <Container Fluid>
                                   <Row>
                                       
-                                  <div class="form-control d-none d-xl-block col-xl splpd" name="gnamet">
+                                  <div class="form-control d-xl-block col-xl splpd" name="gnamet">
                                       {item.gnamet}
                                   </div>
-                                  <div class="form-control d-none d-xl-block col-xl splpd" name="glinkt">
+                                  <div class="form-control d-xl-block col-xl splpd" name="glinkt">
                                   <a href={item.glinkt} target='_new'>Link</a>
                                   </div>
-                                  <div class="form-control d-none d-xl-block col-xl splpd" name="spamt">
+                                  <div class="form-control d-xl-block col-xl splpd" name="spamt">
                                       {item.spamt}
                                   </div>
                                   </Row>
